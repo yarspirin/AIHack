@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2F8C84205E9CC100B40A97 /* ProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F8C83205E9CC100B40A97 /* ProblemViewController.m */; };
 		1EA93C63205D6AD000F7BCA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA93C62205D6AD000F7BCA1 /* AppDelegate.m */; };
 		1EA93C66205D6AD100F7BCA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA93C65205D6AD100F7BCA1 /* ViewController.m */; };
 		1EA93C69205D6AD100F7BCA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA93C67205D6AD100F7BCA1 /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2F8C82205E9CC100B40A97 /* ProblemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProblemViewController.h; sourceTree = "<group>"; };
+		1E2F8C83205E9CC100B40A97 /* ProblemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProblemViewController.m; sourceTree = "<group>"; };
 		1EA93C5E205D6AD000F7BCA1 /* MedsAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedsAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA93C61205D6AD000F7BCA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EA93C62205D6AD000F7BCA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 				1EC33104205E644F001747BD /* MedTableViewCell.m */,
 				1EC33106205E6469001747BD /* ProblemTableViewCell.h */,
 				1EC33107205E6469001747BD /* ProblemTableViewCell.m */,
+				1E2F8C82205E9CC100B40A97 /* ProblemViewController.h */,
+				1E2F8C83205E9CC100B40A97 /* ProblemViewController.m */,
 			);
 			path = MedsAI;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				1EA93C71205D6AD100F7BCA1 /* main.m in Sources */,
 				1EA93C94205DA38A00F7BCA1 /* LCStarRatingView.m in Sources */,
 				1EA93C88205D781A00F7BCA1 /* HistoryViewController.m in Sources */,
+				1E2F8C84205E9CC100B40A97 /* ProblemViewController.m in Sources */,
 				1EA93C7C205D6B5D00F7BCA1 /* SearchViewController.m in Sources */,
 				1EC33108205E6469001747BD /* ProblemTableViewCell.m in Sources */,
 				1EA93C8B205D791800F7BCA1 /* ProfileViewController.m in Sources */,

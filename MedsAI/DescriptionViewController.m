@@ -83,8 +83,8 @@
         
         [alertVC addAction:okAction];
         [self presentViewController:alertVC animated:YES completion:nil];
-    } else {
-        // Problem
+    } else if (indexPath.row == 4) {
+        [self performSegueWithIdentifier:@"problem" sender:self];
     }
 }
 
