@@ -7,73 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E19313B863342E1D123EAA062885BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		12D018E779907DE3606FBCB0E9C488DE /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB831108CA810852CE01B408A036B0BD /* SVProgressHUD-dummy.m */; };
-		222263A8E9EB3B07034736929E2AD319 /* HCSStarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E8912BD3957E7AAA45F86C7942C24D /* HCSStarRatingView-dummy.m */; };
-		2C9EE35552D20E2E27793197515DEB93 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C29826DAB65E7EB6844A54074FF13BF0 /* SVRadialGradientLayer.m */; };
-		2FFE65EA86A064C5DD10E809E4A6B283 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4D7FADBB770DDAEA5AA81ACA0F866A /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50B373E13D840F072E6B22B13C3E9958 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B69AF4CA28F9025782560F4DB45B4894 /* SVProgressAnimatedView.m */; };
-		572708B0A3E19D49275A2603A5EBE463 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F0B18444459FAC311561BAABBB8C14 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6183C3BE3136FC56AB2606D9BD49DD41 /* HCSStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C6780AD28252794157431C509F1DAF /* HCSStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6375AC94CFB5E6258F2FFB796DE2B893 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2F1566F289DA7F1BACD91B46C06497 /* HCSStarRatingView.m */; };
-		66FC80D4E88FBCBB143C06D063BA76AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
-		8906E3201CA03CFD818E6A23979BA829 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDB31A610FD1FB15C3A859BB9EC09C1 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD8C5ACEF910E2DB9E4A223A417B3FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		927CC6D017BC31EB77BEDCEFB1B8D7AE /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7A23DF1CDB1BC7E588F93CE236F8A /* SVIndefiniteAnimatedView.m */; };
-		A09407DC894869AF8910B444EE5702A3 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 99EC6EC831327189B91FCCEC26ABFC19 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6512EAE508E55AF709D9A3922BE12DA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 262A75E07A7B0DBC507C3B274B6AA8E0 /* SVProgressHUD.m */; };
+		0CA5E19E579752DC58AB4D21727A6872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		222263A8E9EB3B07034736929E2AD319 /* HCSStarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F873F114C6B8FFD622166B088278BA0 /* HCSStarRatingView-dummy.m */; };
+		317DD63B47A4834BBB02F0DA4E54F850 /* NYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 163CC43204A95619CEEB859CE250F471 /* NYAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507810C146F4F51E25D217C0E2403A0B /* NYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED589DC9845304E77F7E64041BABA548 /* NYAlertViewController.m */; };
+		5758948473A45824CB56901C765CB393 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFD0A3578702A6D2B362F0B94FF0A19 /* SVProgressAnimatedView.m */; };
+		5E7E5869C0ABB6BCA81B1E03A50045F6 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB25A8FB304809F9E2B9FCF70427324 /* SVIndefiniteAnimatedView.m */; };
+		5F3A78A8957E8E0261A7D305964D0FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		6183C3BE3136FC56AB2606D9BD49DD41 /* HCSStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = A314540F39A0F7F5BD65460F37723E25 /* HCSStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6375AC94CFB5E6258F2FFB796DE2B893 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FE2F1BA80576BD8FCB9F2D4DB3BE2D /* HCSStarRatingView.m */; };
+		64C445152F683643340CADC713CA8BA9 /* Pods-MedsAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE20FE8A1A8076E3AAF4579B915D688 /* Pods-MedsAI-dummy.m */; };
+		7D829B0A8BD669D32705E2FDC428BCE6 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7FAD42F0501BAA854BB2DAA40306C0 /* SVProgressHUD-dummy.m */; };
+		886AB55C98EFA7F486F3CBB236A89E0B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C078622ED654B4DC35BE54D50941CA76 /* SVRadialGradientLayer.m */; };
+		8DDBEC10001CF9137219948653B0D95D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3512F8ED1FF4F823D503B7EC2B5B0637 /* SVProgressHUD.m */; };
+		8F4091E1F4136BE6D1CF968E7CE2BDCC /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 270CC75368C086E67E5E9D0DA1638F88 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C10639333766DA982CC8B832CDB5F36F /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C99534A860C6A82B123268563253C54B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1491666450BE0568D5812123C983A8D /* NYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B12894F4676836482CD99D1EBC91DAF6 /* NYAlertView.m */; };
 		CE00530908A9E3944778E4DCEFD491DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		E9EC31EA685924A638E5FAA6D1A27BBC /* Pods-MedsAI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE20FE8A1A8076E3AAF4579B915D688 /* Pods-MedsAI-dummy.m */; };
+		E661AC0B70ADFD98B593D74DFA4DEDFF /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4CF9E3377CC72B777548596B007B91 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8C25F6B7098A4720CE9B869C359B6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		EE1F075C59007C634D7DB5AD99BB7886 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC5420308E0A0A822453B59403705DA /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0BEDFE395AE2CC1D41F7AC4645E187B /* NYAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC8CA2A3CCDBEAFE29A874CC1DB60E4 /* NYAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7FD9CF836E8751BA5E7118CEE5D3C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		FE23CAAFBF9D5D795CBDE072033FC839 /* NYAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29116B2117BB567FAD04355BE824F8F /* NYAlertViewController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		500FB7814454BF90CD8E66EED1A908E4 /* PBXContainerItemProxy */ = {
+		0A1AAEA0D8DB3BCDB955FFF640557F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5835252C1DF3B1EF1545BE13CE24CC0;
+			remoteInfo = NYAlertViewController;
+		};
+		81D0F207DFA89C95169186BA6E164D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F0C16A26DC2F752B1E10493554EDD91;
+			remoteInfo = SVProgressHUD;
+		};
+		CEAE7C7EA12DF475D47217417A33D3F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6E61F2F2502A2191CC5673EC004BB113;
 			remoteInfo = HCSStarRatingView;
 		};
-		87D9A9DA2055A817981820906FBF4565 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E02CE59A2C1964EFED9CCD0562E0C3D1;
-			remoteInfo = SVProgressHUD;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B4D7FADBB770DDAEA5AA81ACA0F866A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		00221F5EDBC324BAA02F4BF6FAFC4AE4 /* libNYAlertViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNYAlertViewController.a; path = libNYAlertViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE20FE8A1A8076E3AAF4579B915D688 /* Pods-MedsAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedsAI-dummy.m"; sourceTree = "<group>"; };
-		14983D5C19C04AFF034FB25C3C433DB4 /* libHCSStarRatingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHCSStarRatingView.a; path = libHCSStarRatingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		262A75E07A7B0DBC507C3B274B6AA8E0 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		163CC43204A95619CEEB859CE250F471 /* NYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertView.h; path = NYAlertViewController/NYAlertView.h; sourceTree = "<group>"; };
+		270CC75368C086E67E5E9D0DA1638F88 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		2B7FAD42F0501BAA854BB2DAA40306C0 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		3512F8ED1FF4F823D503B7EC2B5B0637 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		3A6A431E83478A55980CA2A7F4A5E4F7 /* NYAlertViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYAlertViewController-prefix.pch"; sourceTree = "<group>"; };
 		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		444F6BCD5C4260BE93B0EA94ECF5CA8D /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		46F0B18444459FAC311561BAABBB8C14 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		6853B92718C8AAB3823663A595AB6354 /* libPods-MedsAI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MedsAI.a"; path = "libPods-MedsAI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A204CC9EBFFF95DD2DFFADB4843348 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		4F873F114C6B8FFD622166B088278BA0 /* HCSStarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCSStarRatingView-dummy.m"; sourceTree = "<group>"; };
 		733E5F3031824CA848705DE55EA7AC1C /* Pods-MedsAI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedsAI-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A4327C3F47574132C0319FA6D5C68E1 /* NYAlertViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYAlertViewController.xcconfig; sourceTree = "<group>"; };
 		7B46CB8E59ABCBB53CCC88BCD52714C8 /* Pods-MedsAI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedsAI-frameworks.sh"; sourceTree = "<group>"; };
 		7C27BD06131F8BBED668680CD79EF527 /* Pods-MedsAI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedsAI-acknowledgements.markdown"; sourceTree = "<group>"; };
-		84C6780AD28252794157431C509F1DAF /* HCSStarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSStarRatingView.h; path = HCSStarRatingView/HCSStarRatingView.h; sourceTree = "<group>"; };
-		8BB7A23DF1CDB1BC7E588F93CE236F8A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		8DC8CA2A3CCDBEAFE29A874CC1DB60E4 /* NYAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertViewController.h; path = NYAlertViewController/NYAlertViewController.h; sourceTree = "<group>"; };
 		8F2FE451F0097E3F51C5A6866A18A5BE /* Pods-MedsAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedsAI.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99EC6EC831327189B91FCCEC26ABFC19 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		9FDB31A610FD1FB15C3A859BB9EC09C1 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		A4E8912BD3957E7AAA45F86C7942C24D /* HCSStarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCSStarRatingView-dummy.m"; sourceTree = "<group>"; };
-		B69AF4CA28F9025782560F4DB45B4894 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		99FE2F1BA80576BD8FCB9F2D4DB3BE2D /* HCSStarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSStarRatingView.m; path = HCSStarRatingView/HCSStarRatingView.m; sourceTree = "<group>"; };
+		9AC5420308E0A0A822453B59403705DA /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		9D9DD5D7DB7C90611F0AF590B54AF5A2 /* libPods-MedsAI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MedsAI.a"; path = "libPods-MedsAI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB25A8FB304809F9E2B9FCF70427324 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		A29116B2117BB567FAD04355BE824F8F /* NYAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYAlertViewController-dummy.m"; sourceTree = "<group>"; };
+		A314540F39A0F7F5BD65460F37723E25 /* HCSStarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSStarRatingView.h; path = HCSStarRatingView/HCSStarRatingView.h; sourceTree = "<group>"; };
+		ADC6B330D4DC20D84737BDC51BAE554D /* HCSStarRatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCSStarRatingView.xcconfig; sourceTree = "<group>"; };
+		B12894F4676836482CD99D1EBC91DAF6 /* NYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertView.m; path = NYAlertViewController/NYAlertView.m; sourceTree = "<group>"; };
+		B7A88688F9C082095267986DC3BFBD27 /* HCSStarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-prefix.pch"; sourceTree = "<group>"; };
+		BA9A364395E716090BA893EE2D1BCB8B /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C15C1262B2288DB6820077EB3F82722D /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C29826DAB65E7EB6844A54074FF13BF0 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		CB831108CA810852CE01B408A036B0BD /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		C078622ED654B4DC35BE54D50941CA76 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		C0BBC1342552160B15BD783A28044A3D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		C99534A860C6A82B123268563253C54B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		CAFD0A3578702A6D2B362F0B94FF0A19 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		D48249B1DB566C4DFF425E94FF200580 /* Pods-MedsAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedsAI.debug.xcconfig"; sourceTree = "<group>"; };
-		E22AD543B5C46A4952BF1F097C0D03C9 /* HCSStarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-prefix.pch"; sourceTree = "<group>"; };
-		ED2F1566F289DA7F1BACD91B46C06497 /* HCSStarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSStarRatingView.m; path = HCSStarRatingView/HCSStarRatingView.m; sourceTree = "<group>"; };
-		F6149DB12D1560F68358EC06756C00A1 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		F71AECA35CFD352D4894DB15F128DC06 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		D5B106769E297B1E2571A788DAD236FA /* libHCSStarRatingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHCSStarRatingView.a; path = libHCSStarRatingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4CF9E3377CC72B777548596B007B91 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		E8FE0CDC34C0342C9DBE871B9F8CFDA4 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		ED589DC9845304E77F7E64041BABA548 /* NYAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertViewController.m; path = NYAlertViewController/NYAlertViewController.m; sourceTree = "<group>"; };
 		F8748E5B3C78D16506157DA6B731E31E /* Pods-MedsAI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedsAI-resources.sh"; sourceTree = "<group>"; };
-		FFDE8DC28FA871956606E533F1909FD8 /* HCSStarRatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCSStarRatingView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,20 +106,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9142DA12A52902E79E2DC5B7F041A4C /* Frameworks */ = {
+		649B84FF416968EE735FD5821341D251 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD8C5ACEF910E2DB9E4A223A417B3FA /* Foundation.framework in Frameworks */,
+				5F3A78A8957E8E0261A7D305964D0FAE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFB6082DE6DB3686B6FE3570BD5AC2BD /* Frameworks */ = {
+		71C0A03CBD3AE328ADC792EDA20F8FC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E19313B863342E1D123EAA062885BFB /* Foundation.framework in Frameworks */,
-				66FC80D4E88FBCBB143C06D063BA76AB /* QuartzCore.framework in Frameworks */,
+				F7FD9CF836E8751BA5E7118CEE5D3C17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B3D7DEBFE73E4BC73477FE3DAD7C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA5E19E579752DC58AB4D21727A6872 /* Foundation.framework in Frameworks */,
+				EA8C25F6B7098A4720CE9B869C359B6B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,14 +149,45 @@
 			path = "Target Support Files/Pods-MedsAI";
 			sourceTree = "<group>";
 		};
-		402238F45FD24092BAAA08433D1AC7C5 /* Products */ = {
+		16602C7868604EE5470BF663FC5B6315 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				14983D5C19C04AFF034FB25C3C433DB4 /* libHCSStarRatingView.a */,
-				6853B92718C8AAB3823663A595AB6354 /* libPods-MedsAI.a */,
-				C15C1262B2288DB6820077EB3F82722D /* libSVProgressHUD.a */,
+				70CC85B1EC010A415FE426561052C41A /* HCSStarRatingView */,
+				22F645FB29B0550C55B69D2CF42B1E40 /* NYAlertViewController */,
+				432F855EB40F792564CB809FE29B9256 /* SVProgressHUD */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22F645FB29B0550C55B69D2CF42B1E40 /* NYAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				163CC43204A95619CEEB859CE250F471 /* NYAlertView.h */,
+				B12894F4676836482CD99D1EBC91DAF6 /* NYAlertView.m */,
+				8DC8CA2A3CCDBEAFE29A874CC1DB60E4 /* NYAlertViewController.h */,
+				ED589DC9845304E77F7E64041BABA548 /* NYAlertViewController.m */,
+				95E49DA7343696D1CAE8A6AE34143105 /* Support Files */,
+			);
+			name = NYAlertViewController;
+			path = NYAlertViewController;
+			sourceTree = "<group>";
+		};
+		432F855EB40F792564CB809FE29B9256 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				270CC75368C086E67E5E9D0DA1638F88 /* SVIndefiniteAnimatedView.h */,
+				9FB25A8FB304809F9E2B9FCF70427324 /* SVIndefiniteAnimatedView.m */,
+				9AC5420308E0A0A822453B59403705DA /* SVProgressAnimatedView.h */,
+				CAFD0A3578702A6D2B362F0B94FF0A19 /* SVProgressAnimatedView.m */,
+				C99534A860C6A82B123268563253C54B /* SVProgressHUD.h */,
+				3512F8ED1FF4F823D503B7EC2B5B0637 /* SVProgressHUD.m */,
+				DC4CF9E3377CC72B777548596B007B91 /* SVRadialGradientLayer.h */,
+				C078622ED654B4DC35BE54D50941CA76 /* SVRadialGradientLayer.m */,
+				AFBBFA4123856A73F5E5AC667A547A32 /* Resources */,
+				92FCCD46B811E02580523C9CBF99EBC7 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -138,42 +198,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4965B34E9670CB9DE4158F3CB501135D /* Pods */ = {
+		70CC85B1EC010A415FE426561052C41A /* HCSStarRatingView */ = {
 			isa = PBXGroup;
 			children = (
-				E109BD9A96A0B1DCDC3978D05796368A /* HCSStarRatingView */,
-				5B6F37B8FE4EEE3104896FAA54C3DC01 /* SVProgressHUD */,
+				A314540F39A0F7F5BD65460F37723E25 /* HCSStarRatingView.h */,
+				99FE2F1BA80576BD8FCB9F2D4DB3BE2D /* HCSStarRatingView.m */,
+				A6D1759693AD0AB832AE5987E086C974 /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5B6F37B8FE4EEE3104896FAA54C3DC01 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				0B4D7FADBB770DDAEA5AA81ACA0F866A /* SVIndefiniteAnimatedView.h */,
-				8BB7A23DF1CDB1BC7E588F93CE236F8A /* SVIndefiniteAnimatedView.m */,
-				9FDB31A610FD1FB15C3A859BB9EC09C1 /* SVProgressAnimatedView.h */,
-				B69AF4CA28F9025782560F4DB45B4894 /* SVProgressAnimatedView.m */,
-				46F0B18444459FAC311561BAABBB8C14 /* SVProgressHUD.h */,
-				262A75E07A7B0DBC507C3B274B6AA8E0 /* SVProgressHUD.m */,
-				99EC6EC831327189B91FCCEC26ABFC19 /* SVRadialGradientLayer.h */,
-				C29826DAB65E7EB6844A54074FF13BF0 /* SVRadialGradientLayer.m */,
-				F17B62AC4014411D23D787715CDE9D34 /* Resources */,
-				DC601EC554525E66A24B5F9CD3CB250C /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		6AF83B0A2F5DC2BDFDAD0473332D390F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FFDE8DC28FA871956606E533F1909FD8 /* HCSStarRatingView.xcconfig */,
-				A4E8912BD3957E7AAA45F86C7942C24D /* HCSStarRatingView-dummy.m */,
-				E22AD543B5C46A4952BF1F097C0D03C9 /* HCSStarRatingView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HCSStarRatingView";
+			name = HCSStarRatingView;
+			path = HCSStarRatingView;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -181,10 +214,62 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				4965B34E9670CB9DE4158F3CB501135D /* Pods */,
-				402238F45FD24092BAAA08433D1AC7C5 /* Products */,
+				16602C7868604EE5470BF663FC5B6315 /* Pods */,
+				9140E1638D1DF9B96C4CB3DF224E35D2 /* Products */,
 				B8F15E42BA9A603E75CBA590F0BBD2CD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9140E1638D1DF9B96C4CB3DF224E35D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B106769E297B1E2571A788DAD236FA /* libHCSStarRatingView.a */,
+				00221F5EDBC324BAA02F4BF6FAFC4AE4 /* libNYAlertViewController.a */,
+				9D9DD5D7DB7C90611F0AF590B54AF5A2 /* libPods-MedsAI.a */,
+				BA9A364395E716090BA893EE2D1BCB8B /* libSVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FCCD46B811E02580523C9CBF99EBC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8FE0CDC34C0342C9DBE871B9F8CFDA4 /* SVProgressHUD.xcconfig */,
+				2B7FAD42F0501BAA854BB2DAA40306C0 /* SVProgressHUD-dummy.m */,
+				48A204CC9EBFFF95DD2DFFADB4843348 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		95E49DA7343696D1CAE8A6AE34143105 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4327C3F47574132C0319FA6D5C68E1 /* NYAlertViewController.xcconfig */,
+				A29116B2117BB567FAD04355BE824F8F /* NYAlertViewController-dummy.m */,
+				3A6A431E83478A55980CA2A7F4A5E4F7 /* NYAlertViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NYAlertViewController";
+			sourceTree = "<group>";
+		};
+		A6D1759693AD0AB832AE5987E086C974 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC6B330D4DC20D84737BDC51BAE554D /* HCSStarRatingView.xcconfig */,
+				4F873F114C6B8FFD622166B088278BA0 /* HCSStarRatingView-dummy.m */,
+				B7A88688F9C082095267986DC3BFBD27 /* HCSStarRatingView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HCSStarRatingView";
+			sourceTree = "<group>";
+		};
+		AFBBFA4123856A73F5E5AC667A547A32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0BBC1342552160B15BD783A28044A3D /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		B8F15E42BA9A603E75CBA590F0BBD2CD /* Targets Support Files */ = {
@@ -204,36 +289,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DC601EC554525E66A24B5F9CD3CB250C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				444F6BCD5C4260BE93B0EA94ECF5CA8D /* SVProgressHUD.xcconfig */,
-				CB831108CA810852CE01B408A036B0BD /* SVProgressHUD-dummy.m */,
-				F6149DB12D1560F68358EC06756C00A1 /* SVProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		E109BD9A96A0B1DCDC3978D05796368A /* HCSStarRatingView */ = {
-			isa = PBXGroup;
-			children = (
-				84C6780AD28252794157431C509F1DAF /* HCSStarRatingView.h */,
-				ED2F1566F289DA7F1BACD91B46C06497 /* HCSStarRatingView.m */,
-				6AF83B0A2F5DC2BDFDAD0473332D390F /* Support Files */,
-			);
-			name = HCSStarRatingView;
-			path = HCSStarRatingView;
-			sourceTree = "<group>";
-		};
-		F17B62AC4014411D23D787715CDE9D34 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F71AECA35CFD352D4894DB15F128DC06 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -245,36 +300,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C10C2D79C4A99D693E80DF3EA23D5DB1 /* Headers */ = {
+		CD46C5B403B5C930EF3B05071400FD27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FFE65EA86A064C5DD10E809E4A6B283 /* SVIndefiniteAnimatedView.h in Headers */,
-				8906E3201CA03CFD818E6A23979BA829 /* SVProgressAnimatedView.h in Headers */,
-				572708B0A3E19D49275A2603A5EBE463 /* SVProgressHUD.h in Headers */,
-				A09407DC894869AF8910B444EE5702A3 /* SVRadialGradientLayer.h in Headers */,
+				317DD63B47A4834BBB02F0DA4E54F850 /* NYAlertView.h in Headers */,
+				F0BEDFE395AE2CC1D41F7AC4645E187B /* NYAlertViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB63EF5B27521CAC5B93E8A6B124D4A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4091E1F4136BE6D1CF968E7CE2BDCC /* SVIndefiniteAnimatedView.h in Headers */,
+				EE1F075C59007C634D7DB5AD99BB7886 /* SVProgressAnimatedView.h in Headers */,
+				C10639333766DA982CC8B832CDB5F36F /* SVProgressHUD.h in Headers */,
+				E661AC0B70ADFD98B593D74DFA4DEDFF /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B65603056F0CC564452125057008A95 /* Pods-MedsAI */ = {
+		0F0C16A26DC2F752B1E10493554EDD91 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D35222C2272F149E26F0BCA107FD3BE /* Build configuration list for PBXNativeTarget "Pods-MedsAI" */;
+			buildConfigurationList = FD1D6EB374536F32B81D17527597734C /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				0701147D9279FA42E71717E25B6AAF36 /* Sources */,
-				A9142DA12A52902E79E2DC5B7F041A4C /* Frameworks */,
+				0C2D7DFAE9E6E02815FF949ECEFB389E /* Sources */,
+				F1B3D7DEBFE73E4BC73477FE3DAD7C69 /* Frameworks */,
+				FB63EF5B27521CAC5B93E8A6B124D4A8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0E5D69012F06C2BBED0F84E02395159 /* PBXTargetDependency */,
-				98045001FBBE1273C3E7EF8116D4DC52 /* PBXTargetDependency */,
 			);
-			name = "Pods-MedsAI";
-			productName = "Pods-MedsAI";
-			productReference = 6853B92718C8AAB3823663A595AB6354 /* libPods-MedsAI.a */;
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = BA9A364395E716090BA893EE2D1BCB8B /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		6E61F2F2502A2191CC5673EC004BB113 /* HCSStarRatingView */ = {
@@ -291,24 +354,43 @@
 			);
 			name = HCSStarRatingView;
 			productName = HCSStarRatingView;
-			productReference = 14983D5C19C04AFF034FB25C3C433DB4 /* libHCSStarRatingView.a */;
+			productReference = D5B106769E297B1E2571A788DAD236FA /* libHCSStarRatingView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E02CE59A2C1964EFED9CCD0562E0C3D1 /* SVProgressHUD */ = {
+		B5835252C1DF3B1EF1545BE13CE24CC0 /* NYAlertViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBFA14B4E81D2174698D9C958B48D8F9 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = A141DA79CB62B73C59ED10AA61751DF2 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */;
 			buildPhases = (
-				3A4010BE710EBFC048121D8D43792A5C /* Sources */,
-				AFB6082DE6DB3686B6FE3570BD5AC2BD /* Frameworks */,
-				C10C2D79C4A99D693E80DF3EA23D5DB1 /* Headers */,
+				281A8457FCA83659C1973A645372869D /* Sources */,
+				649B84FF416968EE735FD5821341D251 /* Frameworks */,
+				CD46C5B403B5C930EF3B05071400FD27 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SVProgressHUD;
-			productName = SVProgressHUD;
-			productReference = C15C1262B2288DB6820077EB3F82722D /* libSVProgressHUD.a */;
+			name = NYAlertViewController;
+			productName = NYAlertViewController;
+			productReference = 00221F5EDBC324BAA02F4BF6FAFC4AE4 /* libNYAlertViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E838FFE20A4F5F4AC05F9A165B00C966 /* Pods-MedsAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497A05B2CBA382F184D6DF84C24A0FAD /* Build configuration list for PBXNativeTarget "Pods-MedsAI" */;
+			buildPhases = (
+				9443CE5926262DDECF3F021ED271B5F0 /* Sources */,
+				71C0A03CBD3AE328ADC792EDA20F8FC6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73EBFEB8D3877C6782F5C63FA8A75D4E /* PBXTargetDependency */,
+				D6742D647A0E70712746E895F1FE176B /* PBXTargetDependency */,
+				334EC8AD9E46722B67D3E992A53D2768 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedsAI";
+			productName = "Pods-MedsAI";
+			productReference = 9D9DD5D7DB7C90611F0AF590B54AF5A2 /* libPods-MedsAI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -328,35 +410,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 402238F45FD24092BAAA08433D1AC7C5 /* Products */;
+			productRefGroup = 9140E1638D1DF9B96C4CB3DF224E35D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6E61F2F2502A2191CC5673EC004BB113 /* HCSStarRatingView */,
-				6B65603056F0CC564452125057008A95 /* Pods-MedsAI */,
-				E02CE59A2C1964EFED9CCD0562E0C3D1 /* SVProgressHUD */,
+				B5835252C1DF3B1EF1545BE13CE24CC0 /* NYAlertViewController */,
+				E838FFE20A4F5F4AC05F9A165B00C966 /* Pods-MedsAI */,
+				0F0C16A26DC2F752B1E10493554EDD91 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0701147D9279FA42E71717E25B6AAF36 /* Sources */ = {
+		0C2D7DFAE9E6E02815FF949ECEFB389E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9EC31EA685924A638E5FAA6D1A27BBC /* Pods-MedsAI-dummy.m in Sources */,
+				5E7E5869C0ABB6BCA81B1E03A50045F6 /* SVIndefiniteAnimatedView.m in Sources */,
+				5758948473A45824CB56901C765CB393 /* SVProgressAnimatedView.m in Sources */,
+				7D829B0A8BD669D32705E2FDC428BCE6 /* SVProgressHUD-dummy.m in Sources */,
+				8DDBEC10001CF9137219948653B0D95D /* SVProgressHUD.m in Sources */,
+				886AB55C98EFA7F486F3CBB236A89E0B /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A4010BE710EBFC048121D8D43792A5C /* Sources */ = {
+		281A8457FCA83659C1973A645372869D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927CC6D017BC31EB77BEDCEFB1B8D7AE /* SVIndefiniteAnimatedView.m in Sources */,
-				50B373E13D840F072E6B22B13C3E9958 /* SVProgressAnimatedView.m in Sources */,
-				12D018E779907DE3606FBCB0E9C488DE /* SVProgressHUD-dummy.m in Sources */,
-				C6512EAE508E55AF709D9A3922BE12DA /* SVProgressHUD.m in Sources */,
-				2C9EE35552D20E2E27793197515DEB93 /* SVRadialGradientLayer.m in Sources */,
+				C1491666450BE0568D5812123C983A8D /* NYAlertView.m in Sources */,
+				FE23CAAFBF9D5D795CBDE072033FC839 /* NYAlertViewController-dummy.m in Sources */,
+				507810C146F4F51E25D217C0E2403A0B /* NYAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9443CE5926262DDECF3F021ED271B5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C445152F683643340CADC713CA8BA9 /* Pods-MedsAI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,67 +465,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		98045001FBBE1273C3E7EF8116D4DC52 /* PBXTargetDependency */ = {
+		334EC8AD9E46722B67D3E992A53D2768 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = E02CE59A2C1964EFED9CCD0562E0C3D1 /* SVProgressHUD */;
-			targetProxy = 87D9A9DA2055A817981820906FBF4565 /* PBXContainerItemProxy */;
+			target = 0F0C16A26DC2F752B1E10493554EDD91 /* SVProgressHUD */;
+			targetProxy = 81D0F207DFA89C95169186BA6E164D19 /* PBXContainerItemProxy */;
 		};
-		C0E5D69012F06C2BBED0F84E02395159 /* PBXTargetDependency */ = {
+		73EBFEB8D3877C6782F5C63FA8A75D4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HCSStarRatingView;
 			target = 6E61F2F2502A2191CC5673EC004BB113 /* HCSStarRatingView */;
-			targetProxy = 500FB7814454BF90CD8E66EED1A908E4 /* PBXContainerItemProxy */;
+			targetProxy = CEAE7C7EA12DF475D47217417A33D3F0 /* PBXContainerItemProxy */;
+		};
+		D6742D647A0E70712746E895F1FE176B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NYAlertViewController;
+			target = B5835252C1DF3B1EF1545BE13CE24CC0 /* NYAlertViewController */;
+			targetProxy = 0A1AAEA0D8DB3BCDB955FFF640557F3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		009D7B49628AC574ABBA66AF93395C51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D48249B1DB566C4DFF425E94FF200580 /* Pods-MedsAI.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		0C6F511B6331BC115B7E14A89789BA13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 444F6BCD5C4260BE93B0EA94ECF5CA8D /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		12E1A8B026C5564AB0CC961E5B9C359D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -477,53 +530,30 @@
 			};
 			name = Debug;
 		};
-		80B5F90C9E096FB85B7A3ADDCE4F6BA0 /* Release */ = {
+		437911ADF4D2252BC835A27470028D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFDE8DC28FA871956606E533F1909FD8 /* HCSStarRatingView.xcconfig */;
+			baseConfigurationReference = D48249B1DB566C4DFF425E94FF200580 /* Pods-MedsAI.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HCSStarRatingView/HCSStarRatingView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		ADC7C1E4EBBC00038C3B659C1C48F781 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 444F6BCD5C4260BE93B0EA94ECF5CA8D /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C82295E46EE34FCCB19255A7418DAF6F /* Release */ = {
+		539063CFABA7D46510027232494CE589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F2FE451F0097E3F51C5A6866A18A5BE /* Pods-MedsAI.release.xcconfig */;
 			buildSettings = {
@@ -545,6 +575,98 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		56C8393C8E0A0EE7A514D91A51524D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FE0CDC34C0342C9DBE871B9F8CFDA4 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		80B5F90C9E096FB85B7A3ADDCE4F6BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC6B330D4DC20D84737BDC51BAE554D /* HCSStarRatingView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HCSStarRatingView/HCSStarRatingView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7B295C2D83D778CE5EE9AEB469A9D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4327C3F47574132C0319FA6D5C68E1 /* NYAlertViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C74D69BECFAF3B538457F2AC3BAA96EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FE0CDC34C0342C9DBE871B9F8CFDA4 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		D3A9D7E6435570048A0980A67D7415ED /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -588,7 +710,7 @@
 		};
 		E3EA89CA6B9D382F75B02773BEF05F78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFDE8DC28FA871956606E533F1909FD8 /* HCSStarRatingView.xcconfig */;
+			baseConfigurationReference = ADC6B330D4DC20D84737BDC51BAE554D /* HCSStarRatingView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -598,6 +720,29 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/HCSStarRatingView/HCSStarRatingView-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC99126532E2271F5B0484A23C80948C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4327C3F47574132C0319FA6D5C68E1 /* NYAlertViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -621,6 +766,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		497A05B2CBA382F184D6DF84C24A0FAD /* Build configuration list for PBXNativeTarget "Pods-MedsAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437911ADF4D2252BC835A27470028D63 /* Debug */,
+				539063CFABA7D46510027232494CE589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6A718DA4ECDB8109DB9D87193332DB80 /* Build configuration list for PBXNativeTarget "HCSStarRatingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -630,20 +784,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D35222C2272F149E26F0BCA107FD3BE /* Build configuration list for PBXNativeTarget "Pods-MedsAI" */ = {
+		A141DA79CB62B73C59ED10AA61751DF2 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				009D7B49628AC574ABBA66AF93395C51 /* Debug */,
-				C82295E46EE34FCCB19255A7418DAF6F /* Release */,
+				FC99126532E2271F5B0484A23C80948C /* Debug */,
+				B7B295C2D83D778CE5EE9AEB469A9D9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBFA14B4E81D2174698D9C958B48D8F9 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		FD1D6EB374536F32B81D17527597734C /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C6F511B6331BC115B7E14A89789BA13 /* Debug */,
-				ADC7C1E4EBBC00038C3B659C1C48F781 /* Release */,
+				C74D69BECFAF3B538457F2AC3BAA96EE /* Debug */,
+				56C8393C8E0A0EE7A514D91A51524D0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

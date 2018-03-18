@@ -10,6 +10,8 @@
 #import "SWRevealViewController.h"
 #import "ListTableViewCell.h"
 #import "LCStarRatingView.h"
+#import "DescriptionViewController.h"
+#import <SVProgressHUD.h>
 
 @interface SearchViewController ()
 
@@ -27,11 +29,21 @@
 @property (nonatomic, strong) NSArray<NSString *> *sideEffects;
 @property (nonatomic, strong) NSArray<NSString *> *contrs; // Противопоказания
 
+@property (nonatomic, strong) NSString *pushName;
+@property (nonatomic, strong) NSString *pushImageName;
+@property (nonatomic, strong) NSString *pushDesc;
+@property (nonatomic, strong) NSString *pushProducer;
+@property (nonatomic, strong) NSString *pushCompound;
+@property (nonatomic, strong) NSString *pushSideEffect;
+@property (nonatomic, strong) NSString *pushContr;
+@property (nonatomic) NSInteger currentIndex;
+
 @property (nonatomic) NSInteger index;
 
 @end
 
 @implementation SearchViewController
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -39,6 +51,34 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.prices count];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    self.pushName = self.names[indexPath.row];
+    self.pushImageName = self.images[indexPath.row];
+    self.pushDesc = self.descriptions[indexPath.row];
+    self.pushProducer = self.manufacturers[indexPath.row];
+    self.pushCompound = self.compounds[indexPath.row];
+    self.pushSideEffect = self.sideEffects[indexPath.row];
+    self.pushContr = self.contrs[indexPath.row];
+    self.currentIndex = indexPath.row;
+    
+    [self performSegueWithIdentifier:@"description" sender:self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"description"]) {
+        DescriptionViewController *vc = segue.destinationViewController;
+        
+        vc.name = self.pushName;
+        vc.imageName = self.pushImageName;
+        vc.desc = self.pushDesc;
+        vc.producer = self.pushProducer;
+        vc.compound = self.pushCompound;
+        vc.sideEffect = self.pushSideEffect;
+        vc.contr = self.pushContr;
+        vc.rating = [NSString stringWithFormat:@"%ld%%", 100 - 100 * self.currentIndex / self.names.count];
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -52,8 +92,9 @@
     cell.price.text = [NSString stringWithFormat:@"%@р.", self.prices[indexPath.row]];
     cell.imageName = self.images[indexPath.row];
     cell.image.image = [UIImage imageNamed:cell.imageName];
+    cell.starImage.image = [UIImage imageNamed:[NSString stringWithFormat:@"%ld", 5 - 3 * indexPath.row / self.names.count]];
 // cell.ratingView.progress = 3;
-    cell.ratingView.backgroundColor = [UIColor whiteColor];
+    //cell.ratingView.backgroundColor = [UIColor whiteColor];
     
     return cell;
 }
@@ -83,6 +124,9 @@
     self.searchBar.delegate = self;
     
     self.index = [self submitQuery:@"zzz"];
+    
+    [SVProgressHUD show];
+    [SVProgressHUD dismissWithDelay:0.5];
 }
 
 - (void)didReceiveMemoryWarning {

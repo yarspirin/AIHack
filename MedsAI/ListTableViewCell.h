@@ -17,5 +17,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *price;
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (strong, nonatomic) NSString *imageName;
+@property (weak, nonatomic) IBOutlet UIImageView *starImage;
 
 @end

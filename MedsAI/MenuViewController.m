@@ -83,7 +83,7 @@
     
     cell.cellLabel.textColor = [UIColor whiteColor];
     cell.cellImageView.image = [UIImage imageNamed:cell.alternativeImageName];
-    cell.contentView.backgroundColor = [UIColor blackColor];
+    cell.contentView.backgroundColor = [UIColor colorWithRed:86.0/255.0 green:142.0/255.0 blue:247.0/255.0 alpha:1.0];
     
     if (indexPath.row == 0) {
         [self performSegueWithIdentifier:@"search" sender:self];
