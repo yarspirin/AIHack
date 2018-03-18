@@ -143,6 +143,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.navBar.topItem.title = self.name;
+    self.imageView.image = [UIImage imageNamed:self.imageName];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,15 +1,18 @@
 PODS:
   - HCSStarRatingView (1.5)
+  - NYAlertViewController (1.3.0)
   - SVProgressHUD (2.2.2)
 
 DEPENDENCIES:
   - HCSStarRatingView
+  - NYAlertViewController
   - SVProgressHUD
 
 SPEC CHECKSUMS:
   HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  NYAlertViewController: b93f82e2c1fc6d5e9485512ddbe7b481f463a074
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
 
-PODFILE CHECKSUM: bcb9c309ccb2e7b4ce286e012b92e15d561be41b
+PODFILE CHECKSUM: 1566b2ece504fedcc2cede14223f17158d94e095
 
 COCOAPODS: 1.2.0

@@ -23,6 +23,12 @@
 		1EA93C8E205D7EF300F7BCA1 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA93C8D205D7EF300F7BCA1 /* MenuTableViewCell.m */; };
 		1EA93C91205D9B2200F7BCA1 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA93C90205D9B2200F7BCA1 /* ListTableViewCell.m */; };
 		1EA93C94205DA38A00F7BCA1 /* LCStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA93C93205DA38A00F7BCA1 /* LCStarRatingView.m */; };
+		1EC330F9205E4B36001747BD /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC330F8205E4B36001747BD /* DescriptionViewController.m */; };
+		1EC330FC205E62FF001747BD /* ShortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC330FB205E62FF001747BD /* ShortTableViewCell.m */; };
+		1EC330FF205E6334001747BD /* InstructionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC330FE205E6334001747BD /* InstructionTableViewCell.m */; };
+		1EC33102205E63AF001747BD /* BuyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC33101205E63AF001747BD /* BuyTableViewCell.m */; };
+		1EC33105205E644F001747BD /* MedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC33104205E644F001747BD /* MedTableViewCell.m */; };
+		1EC33108205E6469001747BD /* ProblemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC33107205E6469001747BD /* ProblemTableViewCell.m */; };
 		D82898E82B662833F650B31D /* libPods-MedsAI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBBC165D1965603AD7D6F13 /* libPods-MedsAI.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +63,18 @@
 		1EA93C90205D9B2200F7BCA1 /* ListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
 		1EA93C92205DA38A00F7BCA1 /* LCStarRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCStarRatingView.h; sourceTree = "<group>"; };
 		1EA93C93205DA38A00F7BCA1 /* LCStarRatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCStarRatingView.m; sourceTree = "<group>"; };
+		1EC330F7205E4B36001747BD /* DescriptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		1EC330F8205E4B36001747BD /* DescriptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		1EC330FA205E62FF001747BD /* ShortTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortTableViewCell.h; sourceTree = "<group>"; };
+		1EC330FB205E62FF001747BD /* ShortTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortTableViewCell.m; sourceTree = "<group>"; };
+		1EC330FD205E6334001747BD /* InstructionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstructionTableViewCell.h; sourceTree = "<group>"; };
+		1EC330FE205E6334001747BD /* InstructionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstructionTableViewCell.m; sourceTree = "<group>"; };
+		1EC33100205E63AF001747BD /* BuyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuyTableViewCell.h; sourceTree = "<group>"; };
+		1EC33101205E63AF001747BD /* BuyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuyTableViewCell.m; sourceTree = "<group>"; };
+		1EC33103205E644F001747BD /* MedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedTableViewCell.h; sourceTree = "<group>"; };
+		1EC33104205E644F001747BD /* MedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedTableViewCell.m; sourceTree = "<group>"; };
+		1EC33106205E6469001747BD /* ProblemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProblemTableViewCell.h; sourceTree = "<group>"; };
+		1EC33107205E6469001747BD /* ProblemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProblemTableViewCell.m; sourceTree = "<group>"; };
 		B4D38D72B73091C61748F583 /* Pods-MedsAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedsAI.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedsAI/Pods-MedsAI.release.xcconfig"; sourceTree = "<group>"; };
 		CBBBC165D1965603AD7D6F13 /* libPods-MedsAI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedsAI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BB314C396754F23D676879 /* Pods-MedsAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedsAI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedsAI/Pods-MedsAI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,8 +122,8 @@
 				1EA93C6C205D6AD100F7BCA1 /* LaunchScreen.storyboard */,
 				1EA93C6F205D6AD100F7BCA1 /* Info.plist */,
 				1EA93C70205D6AD100F7BCA1 /* main.m */,
-				1EA93C77205D6B2D00F7BCA1 /* MenuViewController.h */,
 				1EA93C78205D6B2D00F7BCA1 /* MenuViewController.m */,
+				1EA93C77205D6B2D00F7BCA1 /* MenuViewController.h */,
 				1EA93C7A205D6B5D00F7BCA1 /* SearchViewController.h */,
 				1EA93C7B205D6B5D00F7BCA1 /* SearchViewController.m */,
 				1EA93C7D205D6D0B00F7BCA1 /* SWRevealViewController.h */,
@@ -124,6 +142,18 @@
 				1EA93C90205D9B2200F7BCA1 /* ListTableViewCell.m */,
 				1EA93C92205DA38A00F7BCA1 /* LCStarRatingView.h */,
 				1EA93C93205DA38A00F7BCA1 /* LCStarRatingView.m */,
+				1EC330F7205E4B36001747BD /* DescriptionViewController.h */,
+				1EC330F8205E4B36001747BD /* DescriptionViewController.m */,
+				1EC330FA205E62FF001747BD /* ShortTableViewCell.h */,
+				1EC330FB205E62FF001747BD /* ShortTableViewCell.m */,
+				1EC330FD205E6334001747BD /* InstructionTableViewCell.h */,
+				1EC330FE205E6334001747BD /* InstructionTableViewCell.m */,
+				1EC33100205E63AF001747BD /* BuyTableViewCell.h */,
+				1EC33101205E63AF001747BD /* BuyTableViewCell.m */,
+				1EC33103205E644F001747BD /* MedTableViewCell.h */,
+				1EC33104205E644F001747BD /* MedTableViewCell.m */,
+				1EC33106205E6469001747BD /* ProblemTableViewCell.h */,
+				1EC33107205E6469001747BD /* ProblemTableViewCell.m */,
 			);
 			path = MedsAI;
 			sourceTree = "<group>";
@@ -267,17 +297,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC33105205E644F001747BD /* MedTableViewCell.m in Sources */,
+				1EC330FC205E62FF001747BD /* ShortTableViewCell.m in Sources */,
 				1EA93C66205D6AD100F7BCA1 /* ViewController.m in Sources */,
 				1EA93C71205D6AD100F7BCA1 /* main.m in Sources */,
 				1EA93C94205DA38A00F7BCA1 /* LCStarRatingView.m in Sources */,
 				1EA93C88205D781A00F7BCA1 /* HistoryViewController.m in Sources */,
 				1EA93C7C205D6B5D00F7BCA1 /* SearchViewController.m in Sources */,
+				1EC33108205E6469001747BD /* ProblemTableViewCell.m in Sources */,
 				1EA93C8B205D791800F7BCA1 /* ProfileViewController.m in Sources */,
 				1EA93C63205D6AD000F7BCA1 /* AppDelegate.m in Sources */,
 				1EA93C79205D6B2D00F7BCA1 /* MenuViewController.m in Sources */,
 				1EA93C8E205D7EF300F7BCA1 /* MenuTableViewCell.m in Sources */,
+				1EC33102205E63AF001747BD /* BuyTableViewCell.m in Sources */,
+				1EC330FF205E6334001747BD /* InstructionTableViewCell.m in Sources */,
 				1EA93C7F205D6D0B00F7BCA1 /* SWRevealViewController.m in Sources */,
 				1EA93C91205D9B2200F7BCA1 /* ListTableViewCell.m in Sources */,
+				1EC330F9205E4B36001747BD /* DescriptionViewController.m in Sources */,
 				1EA93C82205D6EA900F7BCA1 /* SettingsViewController.m in Sources */,
 				1EA93C85205D730500F7BCA1 /* PharmacyViewController.m in Sources */,
 			);

@@ -8,5 +8,5 @@ target 'MedsAI' do
   # Pods for MedsAI
   pod 'HCSStarRatingView'
   pod 'SVProgressHUD'
-
+  pod 'NYAlertViewController'
 end
